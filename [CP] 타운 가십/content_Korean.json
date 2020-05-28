@@ -200,9 +200,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Maru",
     "Entries": {
-        "TellEveryone": "$q 1507034/1507035 null#Tell Maru about Marnie and Lewis?#$r 1507034 0 TellEveryone_MaruYes#Yes#$r 1507035 0 TellEveryone_MaruNo#No",
-        "TellEveryone_MaruYes": "Hey as long as they're both into it, I'm not going to judge.",
-        "TellEveryone_MaruNo": "Sebastian's into computers, and I tinker with gadgets. You'd think we'd get along, maybe create something wonderful together...$2#$b#But he just hides in the basement and scowls.$2"
+        "TellEveryone": "$q 1507034/1507035 null#마루에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507034 0 TellEveryone_MaruYes#네#$r 1507035 0 TellEveryone_MaruNo#아니오",
+        "TellEveryone_MaruYes": "두분이서 좋다면야, 내가 판단할 일은 아니지.",
+        "TellEveryone_MaruNo": " 세바스찬은 컴퓨터에 푹 빠져있고, 나는 기계 장치를 만지작거려. 너는 우리가 잘 어울릴 거라고 생각하겠지, 어쩌면 멋진 걸 함께 만들어 낸다던가...$2#$b#하지만 지하실에 숨은채로 노려보기만 하는게 현실이지.$2"
             }
         },
 {
@@ -210,9 +210,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Pam",
     "Entries": {
-        "TellEveryone": "$q 1507035/1507036 null#Tell Pam about Marnie and Lewis?#$r 1507035 0 TellEveryone_PamYes#Yes#$r 1507036 0 TellEveryone_PamNo#No",
-        "TellEveryone_PamYes": "Oh, the old dog! Good on him.",
-        "TellEveryone_PamNo": "I hope I did right bringing Penny up here... She seems happy though. Smarter than I ever was. Good with the kids too. She'll go far."
+        "TellEveryone": "$q 1507035/1507036 null#팸에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507035 0 TellEveryone_PamYes#네#$r 1507036 0 TellEveryone_PamNo#아니오",
+        "TellEveryone_PamYes": "오, 그 고집불통 루이스가! 좋은일이야.",
+        "TellEveryone_PamNo": "페니를 데리고 여기에 온 게 옳은 일이었는지는 모르겠지만... 그래도 페니는 행복해보여. 저 나이때의 나보다 더 똑똑하지, 애들하고도 잘 어울리고. 페니는 크게 될 사람이야."
             }
         },
 {
@@ -220,9 +220,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Pierre",
     "Entries": {
-        "TellEveryone": "$q 1507037/1507038 null#Tell Pierre about Marnie and Lewis?#$r 1507037 0 TellEveryone_PierreYes#Yes#$r 1507038 0 TellEveryone_PierreNo#No",
-        "TellEveryone_PierreYes": "Oh really? I'm guessing she's enjoying some extra 'business perks'.$3",
-        "TellEveryone_PierreNo": "You know, the problem with running a store is being stuck inside all day. I feel there's a world out there that I barely get to see."
+        "TellEveryone": "$q 1507037/1507038 null#피에르에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507037 0 TellEveryone_PierreYes#네#$r 1507038 0 TellEveryone_PierreNo#아니오",
+        "TellEveryone_PierreYes": "그게 정말이야? 어쩐지 마니가 약간의 '비즈니스 특권'을 누리더라.$3",
+        "TellEveryone_PierreNo": "너도 알다시피, 가게를 운영할때의 문제는 하루종일 가게에 박혀있어야 한다는 거야. 밖은 내가 거의 본적 없는 세상인 것 같아."
      
             }
         },
@@ -232,7 +232,7 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Lewis",
     "Entries": {
-        "TellEveryone": "$p 1507037#Thanks to you, Pierre's been asking some very awkward questions. I'd appreciate if you held your tongue in future, @.$4|My ears feel uncommonly warm at the moment. Perhaps I've had a bit too much sun.$2"
+        "TellEveryone": "$p 1507037#@, 자네 덕분에 피에르가 매우 곤란한 질문을 해왔네. 앞으로는 잠자코 있어주면 아주 고맙겠어.$4|질문을 받는 그 순간에 햇빛을 너무 많이 쬐었는지 귀가 굉장히 뜨끈해졌다네.$2"
             }
         },
 
@@ -243,9 +243,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Penny",
     "Entries": {
-        "TellEveryone": "$q 1507039/1507040 null#Tell Penny about Marnie and Lewis?#$r 1507039 0 TellEveryone_PennyYes#Yes#$r 1507040 0 TellEveryone_PennyNo#No",
-        "TellEveryone_PennyYes": "Oh, how sweet! I guess it's never too late to find love, is it?$1",
-        "TellEveryone_PennyNo": "I've been having to do a lot of reading recently. The questions that Jas and Vincent come up wth... well, let's just say they keep me guessing!"
+        "TellEveryone": "$q 1507039/1507040 null#페니에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507039 0 TellEveryone_PennyYes#네#$r 1507040 0 TellEveryone_PennyNo#아니오",
+        "TellEveryone_PennyYes": "와, 너무 달달해요! 사랑에는 절대 늦음이 없는 것같아요, 안그래요?$1",
+        "TellEveryone_PennyNo": "저는 요즘 많은 책을 읽어야 했어요. 재스와 빈센트가 물어본 질문들이란... 음, 그냥 그 둘은 어디로 튈지 모른다는거로 하죠!"
             }
         },
 {
@@ -253,9 +253,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Robin",
     "Entries": {
-        "TellEveryone": "$q 1507041/1507042 null#Tell Robin about Marnie and Lewis?#$r 1507041 0 TellEveryone_RobinYes#Yes#$r 1507042 0 TellEveryone_RobinNo#No",
-        "TellEveryone_RobinYes": "The Mayor and Marnie? That explains those repairs I made to Marnie's window... it wasn't designed to open that wide!$1",
-        "TellEveryone_RobinNo": "I fell in love with carpentry at school; the wood spoke to me.#$b#Not literally of course! But I knew from touching it what it could become."
+        "TellEveryone": "$q 1507041/1507042 null#로빈에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507041 0 TellEveryone_RobinYes#네#$r 1507042 0 TellEveryone_RobinNo#아니오",
+        "TellEveryone_RobinYes": "루이스 시장님이랑 마니가? 이제야 마니네 집 창문을 보수해야했던 이유가 설명이되네... 그 창문은 사람이 드나들만큼 크게 열 수 있도록 설계된게 아니었거든!$1",
+        "TellEveryone_RobinNo": "나는 학교를 다닐 때 목공일과 사랑에 빠졌어. 나무가 나에게 말을 걸었거든.#$b#글자 그대로의 의미는 당연히 아니야! 하지만 나무를 만지면 어떤 모습으로 변할 수 있는지는 알 수 있었어."
             }
         },
 {
@@ -263,8 +263,8 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Sam",
     "Entries": {
-        "TellEveryone": "$q 1507043/1507044 null#Tell Sam about Marnie and Lewis?#$r 1507043 0 TellEveryone_SamYes#Yes#$r 1507044 0 TellEveryone_SamNo#No",
-        "TellEveryone_SamYes": "Hah! The old dude's still got it!$1#$b#Good on him, I guess. Although it kinda sucks he won't go public.$5",
+        "TellEveryone": "$q 1507043/1507044 null#샘에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507043 0 TellEveryone_SamYes#네#$r 1507044 0 TellEveryone_SamNo#아니오",
+        "TellEveryone_SamYes": "하! $1#$b#Good on him, I guess. Although it kinda sucks he won't go public.$5",
         "TellEveryone_SamNo": "Hey @. Why do the best song ideas come when I'm lying in bed?#$b#Had to get up and write the whole thing down. And today it looks like nonsense."
             }
         },
@@ -307,8 +307,8 @@
     "Target": "Characters/Dialogue/Wizard",
     "Entries": {
         "TellEveryone": "$q 1507051/1507052 null#마법사에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507051 0 TellEveryone_WizardYes#네#$r 1507052 0 TellEveryone_WizardNo#아니오",
-        "TellEveryone_WizardYes": "내가 인간들의 일에 관심이 있다고 생각하는가? 하!#$b#이 세상에는 자네의 원초적인 욕구를 충족시키는 것 이상의 것들이 있다네, @. 이를 명심하는 것이 좋지.",
-        "TellEveryone_WizardNo": "이 세상에는 자네가 깨달은 것보다 훨씬 많은 것들이 존재한다네, @. 이를 명심하는 것이 좋지."
+        "TellEveryone_WizardYes": "내가 인간들의 일에 관심이 있다고 생각하는가? 하!#$b#어린 @여, 이 세상에는 자네의 그 원초적인 욕구를 충족시키는 것 이상의 것들이 있다네. 이를 명심하는 것이 좋을걸세.",
+        "TellEveryone_WizardNo": "이 세상에는 자네가 깨달은 것보다 훨씬 많은 것들이 존재한다네, @여. 이를 명심하는 것이 좋을걸세."
             }
         },
 
@@ -318,7 +318,7 @@
     "Target": "Characters/Dialogue/MarlonFay",
     "Entries": {
         "TellEveryone": "$q 1507053/1507054 null#말론에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507053 0 TellEveryone_MarlonYes#네#$r 1507054 0 TellEveryone_MarlonNo#아니오",
-        "TellEveryone_MarlonYes": "마니가 우리의 명예로운 시장에게 마음을 바쳤단 말인가? 오...$s#$b#추잡한 소문을 퍼트리고 다닐거라면, 몬스터나 잡으러 가는편이 좋을걸세, @.$a",
+        "TellEveryone_MarlonYes": "마니가 우리의 명예로운 시장에게 마음을 바쳤단 말인가? 오...$s#$b#추잡한 소문을 퍼트리고 다닐바엔, 차라리 몬스터나 잡으러 가는편이 좋을걸세, @.$a",
         "TellEveryone_MarlonNo": "오늘따라 고민이 있어보이네만, @. 무언가 마음에 걸리는 것이라도 있나?"
             }
         },
@@ -330,7 +330,7 @@
     "Entries": {
         "TellEveryone": "$q 1507055/1507056 null#줄리엣에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507055 0 TellEveryone_JulietYes#네#$r 1507056 0 TellEveryone_JulietNo#아니오",
         "TellEveryone_JulietYes": "맙소사! 루이스가 마니의 어떤 점을 보고 빠졌는지는 전적으로 공감하는 바 이지만, 마니는 대체 루이스의 어디가 좋은거지?#$b#그리고 왜 비밀로 하는거야? 만약 마니가 내 여자친구였다면, 나는 옥상에 올라가서 모두가 듣도록 노래를 불렀을거라고!",
-        "TellEveryone_JulietNo": "어이 @! 오늘은 무슨일이야? 같이 놀러갈래? 좀 심심한데 논다면야 기꺼이 환영할게."
+        "TellEveryone_JulietNo": "어이 @! 오늘은 무슨일이야? 같이 놀러갈래? 조금 심심한데 나랑 같이 논다면야 기꺼이 환영할게."
             }
         },
 {
