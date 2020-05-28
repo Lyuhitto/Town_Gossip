@@ -255,7 +255,7 @@
     "Entries": {
         "TellEveryone": "$q 1507041/1507042 null#로빈에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507041 0 TellEveryone_RobinYes#네#$r 1507042 0 TellEveryone_RobinNo#아니오",
         "TellEveryone_RobinYes": "루이스 시장님이랑 마니가? 이제야 마니네 집 창문을 보수해야했던 이유가 설명이되네... 그 창문은 사람이 드나들만큼 크게 열 수 있도록 설계된게 아니었거든!$1",
-        "TellEveryone_RobinNo": "나는 학교를 다닐 때 목공일과 사랑에 빠졌어. 나무가 나에게 말을 걸었거든.#$b#글자 그대로의 의미는 당연히 아니야! 하지만 나무를 만지면 어떤 모습으로 변할 수 있는지는 알 수 있었어."
+        "TellEveryone_RobinNo": "나는 학교를 다닐 때 목공일과 사랑에 빠졌어. 나무가 나에게 말을 걸었거든.#$b#정말 글자 그대로 말은 건 건 아니야! 하지만 나무를 만지면 어떤 모습으로 변할 수 있는지는 알 수 있었어."
             }
         },
 {
@@ -264,8 +264,8 @@
     "Target": "Characters/Dialogue/Sam",
     "Entries": {
         "TellEveryone": "$q 1507043/1507044 null#샘에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507043 0 TellEveryone_SamYes#네#$r 1507044 0 TellEveryone_SamNo#아니오",
-        "TellEveryone_SamYes": "하! $1#$b#Good on him, I guess. Although it kinda sucks he won't go public.$5",
-        "TellEveryone_SamNo": "Hey @. Why do the best song ideas come when I'm lying in bed?#$b#Had to get up and write the whole thing down. And today it looks like nonsense."
+        "TellEveryone_SamYes": "하! 우리 나이 지긋하신 시장님도 아직 청춘이네!$1#$b#아마 좋은 일이겠지. 다른 사람들 몰래 사귀는 모습은 별로 좋진 않지만.$5",
+        "TellEveryone_SamNo": "야, @. 왜 침대에 누우면 최고의 노래가 떠오르는 걸까?#$b#결국엔 일어나서 전부 적어놔야 했어. 그리고 오늘 다시 보니까 완전 엉터리더라."
             }
         },
 {
@@ -273,9 +273,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Sebastian",
     "Entries": {
-        "TellEveryone": "$q 1507045/1507046 null#Tell Sebastian about Marnie and Lewis?#$r 1507045 0 TellEveryone_SebastianYes#Yes#$r 1507046 0 TellEveryone_SebastianNo#No",
-        "TellEveryone_SebastianYes": "Who cares?",
-        "TellEveryone_SebastianNo": "It's amazing what you can see outside by the lake at night. Everything's more interesting after dark."
+        "TellEveryone": "$q 1507045/1507046 null#세바스찬에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507045 0 TellEveryone_SebastianYes#네#$r 1507046 0 TellEveryone_SebastianNo#아니오",
+        "TellEveryone_SebastianYes": "신경 안써",
+        "TellEveryone_SebastianNo": "밤의 호숫가로 나오면 경이로운 것들을 볼 수 있어. 어두워진 후엔 모든 것이 흥미로워져."
             }
         },
 
@@ -284,9 +284,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Shane",
     "Entries": {
-        "TellEveryone": "$q 1507047/1507048 null#Tell Shane about Marnie and Lewis?#$r 1507047 0 TellEveryone_ShaneYes#Yes#$r 1507048 0 TellEveryone_ShaneNo#No",
-        "TellEveryone_ShaneYes": "So the Mayor's still going on about maintaining his precious reputation?$5#$b#Does he know you're going around spreading the word?$2#$b#Don't worry, I'm not gonna tell on you. Yoba knows, Aunty deserves better.$4",
-        "TellEveryone_ShaneNo": "It's alright for you, @, You know where you're going with your life. Me? I'm like that plastic bag, everytime I feel like I'm getting somewhere, I get snarled in a tree.$2"
+        "TellEveryone": "$q 1507047/1507048 null#셰인에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507047 0 TellEveryone_ShaneYes#네#$r 1507048 0 TellEveryone_ShaneNo#아니오",
+        "TellEveryone_ShaneYes": "그래서 시장은 여전히 그 잘난 명성을 유지하려고 한다고?$5#$b#네가 소문을 퍼뜨리고 다니는건 알고있고?$2#$b#걱정마, 일러바치진 않을거니까. 요바께서도 알듯이, 고모는 더 나은 대접을 받을 자격이있어.$4",
+        "TellEveryone_ShaneNo": "괜찮아, @. 너는 너의 인생이 어떻게 굴러갈지 알잖아. 나? 내 인생은 항상 저 비닐봉지마냥 나무에 낀채로 부스럭거리기만 할 것 같다고 느껴.$2"
             }
         },
 
@@ -295,9 +295,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Willy",
     "Entries": {
-        "TellEveryone": "$q 1507049/1507050 null#Tell Willy about Marnie and Lewis?#$r 1507049 0 TellEveryone_WillyYes#Yes#$r 1507050 0 TellEveryone_WillyNo#No",
-        "TellEveryone_WillyYes": "Looks like he managed to reel her in. Yeh, I've see them in the saloon, @. Not much gets past this old sailor.",
-        "TellEveryone_WillyNo": "I caught my first fish when I was just a tiny lad. Fellow was so big he almost dragged me right into the drink."
+        "TellEveryone": "$q 1507049/1507050 null#윌리에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507049 0 TellEveryone_WillyYes#네#$r 1507050 0 TellEveryone_WillyNo#아니오",
+        "TellEveryone_WillyYes": "루이스가 마니를 멋지게 낚은 것 같구만. 그래, 그 둘을 살롱에서 본 적이 있네, @. 이 늙은 선원에게 들키지 않는 일은 거의 없네.",
+        "TellEveryone_WillyNo": "나는 아주 조그마한 사내애일적에 첫 물고기를 잡았네. 녀석은 아주 커서 거의 나를 물 속으로 끌고 들어갈 뻔했지."
             }
         },
 
