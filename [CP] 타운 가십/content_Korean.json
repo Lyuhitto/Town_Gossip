@@ -13,8 +13,8 @@
 {   "Action": "EditData",
     "Target": "Data/mail",
     "Entries":{ 
-        "MarnieTellEveryone": "@, 어젯밤 우리가 만나는 걸 들켰다는 점과 서로 나누었던 대화가 무척이나 당황스러웠어... 우리 사이를 비밀로 하는 건 내 마음을 아프게 하지만 나는 루이스의 권위를 존중해. 너의 선택을 다시 고려해줬으면 좋겠어.^ - 마니 %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
-        "LewisTellEveryone": "@, 자네가 어제 우리를 목격한 것과 내 반응에 충격을 받은 것은 유감일세. 자네는 나를 매우 놀라게 했다네. 제발 부탁하건데 모두에게 말하는 것은 다시 재고해 주겠나. 내... 우리의... 경솔한 모습에 대한 이야기가 돌아다니는 모습은 보고 싶지 않네.^ - 시장 루이스 %item conversationTopic TellEveryone 3 %% [#]Lewis's reaction"
+        "MarnieTellEveryone": "@, 어젯밤에 너에게 그 일을 들켜서 당황스럽네. 그리고 루이스와 나의... 사이를 비밀로 하는 건 내 마음을 아프게하지만 나는 그의 권위를 존중해. 너의 선택을 다시 생각해줬으면 좋겠어.^ - 마니 %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
+        "LewisTellEveryone": "@, 자네가 목격한 것과 내 반응으로 충격을 받게 만들어서 미안하네. 너무나도 갑작스러운 나머지 놀란 마음에 그랬네. 제발 부탁하건데 모두에게 말하는 것은 다시 재고해 주겠나? 내... 우리의... 경솔한 모습에 대한 이야기가 돌아다니는 모습은 보고 싶지 않네.^ - 시장 루이스 %item conversationTopic TellEveryone 3 %% [#]Lewis's reaction"
                }
         },
 
@@ -24,7 +24,7 @@
     "Target": "Characters/Dialogue/Abigail",
     "Entries": {
         "TellEveryone": "$q 150701/150702 null#아비게일에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150701 0 TellEveryone_AbigailYes#네#$r 150702 0 TellEveryone_AbigailNo#아니오",
-        "TellEveryone_AbigailYes": "진짜? 루이스와 마니가? 하, 어쩐지 밤에 둘이서 몰래 돌아다니더라니!#$b#마니 아주머니가 '잃어버린 닭'을 찾던게 아닐줄 알았어.",
+        "TellEveryone_AbigailYes": "진짜? 루이스 시장님과 마니 아주머니가? 하, 어쩐지 밤에 둘이서 몰래 돌아다니더라니!#$b#마니 아주머니가 '잃어버린 닭'을 찾던게 아닐줄 알았어.",
         "TellEveryone_AbigailNo": "어라, 무슨 일 있어? 나한테 할 말이 있어보이는데? 아니야?"
         }
 },
@@ -35,7 +35,7 @@
     "Target": "Characters/Dialogue/Alex",
     "Entries": {
         "TellEveryone": "$q 150703/150704 null#알렉스에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150703 0 TellEveryone_AlexYes#네#$r 150704 0 TellEveryone_AlexNo#아니오",
-        "TellEveryone_AlexYes": "멋지네. 아마 두분에게 좋은 일이겠지.#$b#야, 내 머리 어때? 새로운 헤어 스타일을 시도해봤는데.",
+        "TellEveryone_AlexYes": "멋진데. 아마 두분에게 좋은 일이겠지.#$b#야, 내 머리 어때? 새로운 헤어 스타일을 시도해봤는데.",
         "TellEveryone_AlexNo": "야, 내 머리 어때? 새로운 헤어 스타일을 시도해봤는데."
             }
         },
@@ -45,8 +45,8 @@
     "Target": "Characters/Dialogue/Caroline",
     "Entries": {
         "TellEveryone": "$q 150705/150706 null#캐롤라인에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150705 0 TellEveryone_CarolineYes#네#$r 150704 0 TellEveryone_CarolineNo#아니오",
-        "TellEveryone_CarolineYes": "아마도 어떤 것들은 비밀로 하는 편이 더 나을 텐데, 그렇지 않니?",
-        "TellEveryone_CarolineNo": "젊음은 가졌을때 즐겨야해, @. 결혼 생활은 환상적이지만, 자유롭고 제멋대로였던 그때 그 시절이 그리워.$2"
+        "TellEveryone_CarolineYes": "어떤 것들은 비밀로 하는 편이 더 나을 텐데, 그렇지 않니?",
+        "TellEveryone_CarolineNo": "젊음은 가졌을때 즐겨야해, @. 결혼 생활은 환상적이지만, 자유롭고 제멋대로 뛰어다녔던 그때 그 시절이 그리워.$2"
             }
         },
 {
@@ -66,8 +66,8 @@
     "Target": "Characters/Dialogue/Demetrius",
     "Entries": {
         "TellEveryone": "$q 150709/1507010 null#드미트리우스에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150709 0 TellEveryone_DemetriusYes#네#$r 1507010 0 TellEveryone_DemetriusNo#아니오",
-        "TellEveryone_DemetriusYes": "좋아... 네가 말한 것을 토대로 분석하자면 루이스가 비밀로 하자고 주장했던건 논리적이지 않네.$2#$b#마을 사람들이 알게되면 시장직을 그만둬야 한다고 생각할까봐 걱정한건가? 로빈은 마니를 엄청 칭찬하던데.$3",
-        "TellEveryone_DemetriusNo": "흠... 내 아내와 계속 오해가 있었어. 분명하게 토마토와 후추를 곁들인 호박 샐러드는 과일 샐러드가 아니라는거야.$4#$B#하지만 이해할 수가 없어 - 그것들은 전부 다 과일이라고!$2"
+        "TellEveryone_DemetriusYes": "좋아... 네가 말한 것을 토대로 분석하자면... 루이스가 비밀로 하자고 주장했던 것에 대해 논리적인 결론을 내릴 수가 없어.$2#$b#마을 사람들이 알게되면 본인을 나쁘게 생각할까봐 걱정한건가? 로빈은 마니를 칭찬하던데.$3",
+        "TellEveryone_DemetriusNo": "흠... 요즘 내 아내와 또다른 오해가 있었어. 토마토와 후추를 곁들인 호박 샐러드는 당연히 과일 샐러드가 아니라는거야.$4#$B#하지만 이해할 수가 없어, 그것들은 전부 다 과일이라고!$2"
         }
     },
 
@@ -77,7 +77,7 @@
     "Target": "Characters/Dialogue/Emily",
     "Entries": {
         "TellEveryone": "$q 1507011/1507012 null#에밀리에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150709 0 TellEveryone_EmilyYes#네#$r 1507010 0 TellEveryone_EmilyNo#아니오",
-        "TellEveryone_EmilyYes": "진짜? 하지만 두 분이 함께 있을때의 아우라는 조화롭지 않다고 생각했어.$2",
+        "TellEveryone_EmilyYes": "진짜? 음, 하지만 두 분이 함께 있을 때의 아우라는 서로 조화를 이루고 있지 않다고 생각했는데.$2",
         "TellEveryone_EmilyNo": "숲 속에 가만히 서서, 눈을 감고 나무들의 속삭임을 들은 적이 있니?$1#$b#언젠가 꼭 해봐!$3"
             }
         },
@@ -88,8 +88,8 @@
     "Target": "Characters/Dialogue/Elliot",
     "Entries": {
         "TellEveryone": "$q 1507012/1507013 null#엘리엇에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507012 0 TellEveryone_ElliotYes#네#$r 1507013 0 TellEveryone_ElliotNo#아니오",
-        "TellEveryone_ElliotYes": "아, 마치 시의 정수 같구나. 두 연인의 사랑: 그들의 경솔함으로 인한 불꽃이 두 사람을 태울지라도, 불꽃을 향해 날아가는 나방처럼 서로를 끌어당기다",
-        "TellEveryone_ElliotNo": "때때로 내 마음이 막막하고 혼란스러울때에는 바다를 따라 걸을거야.#$b#날카로운 소금 덩어리... 뺨을 스치는 바람...그들은 훌륭한 영감을 증명하지., @.$1"
+        "TellEveryone_ElliotYes": "아, 마치 시의 정수 같구나. 두 연인의 사랑: 경솔함으로 인한 불꽃이 두 사람을 태울지라도, 그 불꽃을 향해 날아가는 나방처럼 서로를 끌어당기네.",
+        "TellEveryone_ElliotNo": "때때로 마음이 막막하고 혼란스러울때에는 바다를 따라 걷곤 해.#$b#날카로운 소금 덩어리... 뺨을 스치는 바람... 그들은 나에게 훌륭한 영감을 보여줘, @.$1"
             }
         },
 {
@@ -109,7 +109,7 @@
     "Target": "Characters/Dialogue/Evelyn",
     "Entries": {
         "TellEveryone": "$q 1507016/1507017 null#에블린에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507016 0 TellEveryone_EvelynYes#네#$r 1507017 0 TellEveryone_EvelynNo#아니오",
-        "TellEveryone_EvelynYes": "당연하단다 아가야. 하지만 다른 사람을 험담하는건 적절하지 않다고 생각하지 않느냐?",
+        "TellEveryone_EvelynYes": "당연하단다 아가야. 하지만 다른 사람을 험담하는건 부적절하다고 생각하지 않니?",
         "TellEveryone_EvelynNo": "오 아가, 무언가 마음에 걸리는 거라도 있어보이는구나. 만일 이 할미에게 말하고 싶다면 기꺼이 귀를 기울이도록하마.$1"
             }
         },
@@ -119,8 +119,8 @@
     "Target": "Characters/Dialogue/George",
     "Entries": {
         "TellEveryone": "$q 1507018/1507019 null#조지에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507016 0 TellEveryone_GeorgeYes#네#$r 1507017 0 TellEveryone_GeorgeNo#아니오",
-        "TellEveryone_GeorgeYes": "우스꽝스럽군! 자넨 그저 남의 험담이나 퍼나르고 있어. 허튼소리 하지 말게.$4",
-        "TellEveryone_GeorgeNo": "요즘 젊은이들은 다른 사람이 누구와 무엇을 하는지에 대한 소문을 퍼트리는 것에 푹 빠져있지. 하지만 자네는 그런 사람이 아니라 다행일세, @."
+        "TellEveryone_GeorgeYes": "우스꽝스럽구만! 자넨 그저 남의 험담이나 퍼나르고 있네. 허튼소리 하지 말게나.$4",
+        "TellEveryone_GeorgeNo": "요즘 젊은이들은 다른 사람이 누구와 무얼 하는지에 대한 소문을 퍼트리는 것에 푹 빠져있지. 하지만 자네는 그런 사람이 아니니 다행이네, @."
             }
         },
 
@@ -130,7 +130,7 @@
     "Target": "Characters/Dialogue/Harvey",
     "Entries": {
         "TellEveryone": "$q 1507020/1507021 null#하비에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507020 0 TellEveryone_HarveyYes#네#$r 1507021 0 TellEveryone_HarveyNo#아니오",
-        "TellEveryone_HarveyYes": "오? 험담하러 온거야? 너도 알듯이 난 비밀을 지킬 것이라고 맹세했으니까.$5",
+        "TellEveryone_HarveyYes": "오? 험담하러 온거야? 난 비밀을 지킨다고 맹세했으니까 말이지, 너도 알듯이 말야.$5",
         "TellEveryone_HarveyNo": "너는 잘 챙겨먹고 다녔으면 좋겠어. 나도 요리를 즐기긴 하지만, 4일 연속으로 같은 식단으로 식사를 하는건 좀 단조롭더라."
             }
         },
@@ -140,8 +140,8 @@
     "Target": "Characters/Dialogue/Haley",
     "Entries": {
         "TellEveryone": "$q 1507022/1507023 null#헤일리에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507022 0 TellEveryone_HaleyYes#네#$r 1507023 0 TellEveryone_HaleyNo#아니오",
-        "TellEveryone_HaleyYes": "뭐라고?! 마니는 루이스의 어디가 좋은거야? 루이스는 너무 늙었어! 특히 그 콧수염!$8",
-        "TellEveryone_HaleyNo": "며칠전에 주문했던 옷을 택배로 받았어. 그런데 화면으로 봤던거랑은 완전 다른거야!$5#$b#*한숨* 직접 상점에가서 사고싶다.$2"
+        "TellEveryone_HaleyYes": "뭐라고?! 마니는 루이스의 어디가 좋은거야? 루이스는 너무 늙었어! 특히 그 콧수염을 보라지!$8",
+        "TellEveryone_HaleyNo": "며칠전에 주문했던 옷을 택배로 받았어. 그런데 화면으로 봤던거랑은 완전 다른거야!$5#$b#*한숨* 직접 상점에 가서 사고싶다.$2"
             }
         },
 {
@@ -150,7 +150,7 @@
     "Target": "Characters/Dialogue/Gus",
     "Entries": {
         "TellEveryone": "$q 124/125 null#거스에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507024 0 TellEveryone_GusYes#네#$r 1507025 0 TellEveryone_GusNo#아니오",
-        "TellEveryone_GusYes": "허, 지금 바텐더인 나한테 험담을 하는겐가?",
+        "TellEveryone_GusYes": "허이고, 지금 바텐더인 나에게 험담을 하는겐가?",
         "TellEveryone_GusNo": "농장일은 잘되어 가는가? 신선한 유기농 재료는 정말이지 최고의 재료라네.$1"
             }
         },
@@ -161,7 +161,7 @@
     "Target": "Characters/Dialogue/Leah",
     "Entries": {
         "TellEveryone": "$q 1507026/1507027 null#레아에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507026 0 TellEveryone_LeahYes#네#$r 1507027 0 TellEveryone_LeahNo#아니오",
-        "TellEveryone_LeahYes": "이렇게 작은 마을에는 비밀이란 없어, @. 우리는 할 수 있는 만큼 서로의 프라이버시를 존중해.$1",
+        "TellEveryone_LeahYes": "이렇게 작은 마을에는 비밀이란 잘 없어, @. 우리는 할 수 있는 만큼 서로의 사생활을 존중해.$1",
         "TellEveryone_LeahNo": "자연으로 되돌아 가는 것에는 멋진 무언가가 있어, @.#$b#너도 지구와 연결되는 이 느낌이 느껴지지?$1"
             }
         },
@@ -181,8 +181,8 @@
     "Target": "Characters/Dialogue/Jodi",
     "Entries": {
         "TellEveryone": "$q 1507030/1507031 null#조디에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507030 0 TellEveryone_JodiYes#네#$r 1507031 0 TellEveryone_JodiNo#아니오",
-        "TellEveryone_JodiYes": "다행이다! 마니의 인생에 새로운 사람이 생길지 궁금했었어. 지금쯤 신나있겠는걸?#$b#그녀가 기뻐한다니 나도 기뻐... 근데 루이스는 왜 비밀로 하고싶어한걸까?",
-        "TellEveryone_JodiNo": "남자 둘이서 어찌나 그리 많은 빨래를 만드는지 몰라. 특히나 빈센트가 심해. 온갖 더러운 걸 끌어들이는것 같다니까."
+        "TellEveryone_JodiYes": "다행이다! 마니의 인생에 새로운 사람이 생길지 궁금했었어. 지금쯤 신나있겠는걸?#$b#그녀가 기뻐한다니 나도 기뻐... 그런데 루이스는 왜 비밀로 하고 싶어 한거지?",
+        "TellEveryone_JodiNo": "남자애 둘이서 어찌나 그리 많은 빨래를 만드는지 몰라. 특히 빈센트가 심해. 온갖 더러운 걸 끌어들이는것 같다니까."
             }
         },
 {
@@ -192,7 +192,7 @@
     "Entries": {
         "TellEveryone": "$q 1507032/1507033 null#켄트에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507032 0 TellEveryone_KentYes#네#$r 1507033 0 TellEveryone_KentNo#아니오",
         "TellEveryone_KentYes": "개인적인 일은 적당한 선에서 그쳐야지.",
-        "TellEveryone_KentNo": "밤공기는 나를 진정시키는데 도움을 주지만, 한편으로는 계속 경계하게돼. 바스락거리는 발걸음 소리라던가...아니면 박격포 소리라던가.#$b#전쟁은 끔찍한 일이야, @. 평범했던 사람을 못알아볼 정도로 완전히 다른 사람으로 바꾸어버릴 수 있지."
+        "TellEveryone_KentNo": "밤공기는 나를 진정시키는데 도움이 되지만, 한편으로는 계속 경계하게돼. 바스락거리는 발걸음 소리라던가...아니면 박격포 소리라던가.#$b#전쟁은 끔찍한 일이야, @. 사람을 더 이상 못 알아 볼 정도로 바꾸어 버릴 수 있지."
             }
         },
 {
@@ -201,8 +201,8 @@
     "Target": "Characters/Dialogue/Maru",
     "Entries": {
         "TellEveryone": "$q 1507034/1507035 null#마루에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507034 0 TellEveryone_MaruYes#네#$r 1507035 0 TellEveryone_MaruNo#아니오",
-        "TellEveryone_MaruYes": "두분이서 좋다면야, 내가 판단할 일은 아니지.",
-        "TellEveryone_MaruNo": " 세바스찬은 컴퓨터에 푹 빠져있고, 나는 기계 장치를 만지작거려. 너는 우리가 잘 어울릴 거라고 생각하겠지, 어쩌면 멋진 걸 함께 만들어 낸다던가...$2#$b#하지만 지하실에 숨은채로 노려보기만 하는게 현실이지.$2"
+        "TellEveryone_MaruYes": "두 분이서 좋다면야, 내가 판단할 일은 아니지.",
+        "TellEveryone_MaruNo": " 세바스찬은 컴퓨터에 푹 빠져있고, 나는 기계 장치를 만지작거리지. 너는 우리가 잘 어울릴 거라고 생각할꺼야, 어쩌면 멋진 걸 함께 만들어 낸다던가...$2#$b#하지만 세바스찬은 지하실에 숨은채로 노려보기만 한다는게 현실이지.$2"
             }
         },
 {
@@ -232,7 +232,7 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Lewis",
     "Entries": {
-        "TellEveryone": "$p 1507037#@, 자네 덕분에 피에르가 매우 곤란한 질문을 해왔네. 앞으로는 잠자코 있어주면 아주 고맙겠어.$4|질문을 받는 그 순간에 햇빛을 너무 많이 쬐었는지 귀가 굉장히 뜨끈해졌다네.$2"
+        "TellEveryone": "$p 1507037#@, 자네 덕분에 피에르가 매우 곤란한 질문을 해왔네. 앞으로는 잠자코 있어주면 아주 고맙겠어.$4|질문을 받는 순간에 햇빛을 너무 많이 쬐었는지 귀가 굉장히 뜨끈해졌다네.$2"
             }
         },
 
@@ -264,7 +264,7 @@
     "Target": "Characters/Dialogue/Sam",
     "Entries": {
         "TellEveryone": "$q 1507043/1507044 null#샘에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507043 0 TellEveryone_SamYes#네#$r 1507044 0 TellEveryone_SamNo#아니오",
-        "TellEveryone_SamYes": "하! 우리 나이 지긋하신 시장님도 아직 청춘이네!$1#$b#아마 좋은 일이겠지. 다른 사람들 몰래 사귀는 모습은 별로 좋진 않지만.$5",
+        "TellEveryone_SamYes": "하! 우리 나이 지긋하신 시장님도 아직 청춘이네!$1#$b#좋은 일이겠네. 다른 사람들 몰래 사귀는 모습은 별로 좋진 않지만.$5",
         "TellEveryone_SamNo": "야, @. 왜 침대에 누우면 최고의 노래가 떠오르는 걸까?#$b#결국엔 일어나서 전부 적어놔야 했어. 그리고 오늘 다시 보니까 완전 엉터리더라."
             }
         },
@@ -274,8 +274,8 @@
     "Target": "Characters/Dialogue/Sebastian",
     "Entries": {
         "TellEveryone": "$q 1507045/1507046 null#세바스찬에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507045 0 TellEveryone_SebastianYes#네#$r 1507046 0 TellEveryone_SebastianNo#아니오",
-        "TellEveryone_SebastianYes": "신경 안써",
-        "TellEveryone_SebastianNo": "밤의 호숫가로 나오면 경이로운 것들을 볼 수 있어. 어두워진 후엔 모든 것이 흥미로워져."
+        "TellEveryone_SebastianYes": "신경 안써.",
+        "TellEveryone_SebastianNo": "밤의 호숫가로 나오면 경이로운 것들을 볼 수 있어. 어두워진 후엔 모든 것이 흥미로워지더라."
             }
         },
 
@@ -286,7 +286,7 @@
     "Entries": {
         "TellEveryone": "$q 1507047/1507048 null#셰인에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507047 0 TellEveryone_ShaneYes#네#$r 1507048 0 TellEveryone_ShaneNo#아니오",
         "TellEveryone_ShaneYes": "그래서 시장은 여전히 그 잘난 명성을 유지하려고 한다고?$5#$b#네가 소문을 퍼뜨리고 다니는건 알고있고?$2#$b#걱정마, 일러바치진 않을거니까. 요바께서도 알듯이, 고모는 더 나은 대접을 받을 자격이있어.$4",
-        "TellEveryone_ShaneNo": "괜찮아, @. 너는 너의 인생이 어떻게 굴러갈지 알잖아. 나? 내 인생은 항상 저 비닐봉지마냥 나무에 낀채로 부스럭거리기만 할 것 같다고 느껴.$2"
+        "TellEveryone_ShaneNo": "괜찮아, @. 너는 너의 인생이 어떻게 굴러갈지 알잖아. 나? 비닐봉지가 나무에 낀채로 부스럭거리기만 하는 게 내 인생같다고 느껴.$2"
             }
         },
 
