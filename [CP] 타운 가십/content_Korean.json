@@ -13,8 +13,8 @@
 {   "Action": "EditData",
     "Target": "Data/mail",
     "Entries":{ 
-        "MarnieTellEveryone": "@, 어젯밤에 너에게 그 일을 들켜서 당황스럽네. 그리고 루이스와 나의... 사이를 비밀로 하는 건 내 마음을 아프게하지만 나는 그의 권위를 존중해. 너의 선택을 다시 생각해줬으면 좋겠어.^ - 마니 %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
-        "LewisTellEveryone": "@, 자네가 목격한 것과 내 반응으로 충격을 받게 만들어서 미안하네. 너무나도 갑작스러운 나머지 놀란 마음에 그랬네. 제발 부탁하건데 모두에게 말하는 것은 다시 재고해 주겠나? 내... 우리의... 경솔한 모습에 대한 이야기가 돌아다니는 모습은 보고 싶지 않네.^ - 시장 루이스 %item conversationTopic TellEveryone 3 %% [#]Lewis's reaction"
+        "MarnieTellEveryone": "@, 어젯밤의 그런 모습을 너에게 보여줬다니 부끄럽네. 그리고 그 이야기... 우리 사이를 비밀로 하는건 내 마음을 아프게하지만 나는 루이스의 권위를 존중해. 너의 선택을 다시 생각해줬으면 좋겠어.^ - 마니 %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
+        "LewisTellEveryone": "@, 자네에게 부끄러운 모습을 보여준 것과 그에 대한 내 반응으로 충격을 받게 만들어서 미안하네. 너무나도 갑작스러운 나머지 놀란 마음에 그랬네. 제발 부탁하건데 모두에게 말하는 것은 다시 재고해 주겠나? 내... 우리의... 경솔한 모습에 대한 이야기가 돌아다니는 모습은 보고 싶지 않네.^ - 시장 루이스 %item conversationTopic TellEveryone 3 %% [#]Lewis's reaction"
                }
         },
 
@@ -67,7 +67,7 @@
     "Entries": {
         "TellEveryone": "$q 150709/1507010 null#드미트리우스에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150709 0 TellEveryone_DemetriusYes#네#$r 1507010 0 TellEveryone_DemetriusNo#아니오",
         "TellEveryone_DemetriusYes": "좋아... 네가 말한 것을 토대로 분석하자면... 루이스가 비밀로 하자고 주장했던 것에 대해 논리적인 결론을 내릴 수가 없어.$2#$b#마을 사람들이 알게되면 본인을 나쁘게 생각할까봐 걱정한건가? 로빈은 마니를 칭찬하던데.$3",
-        "TellEveryone_DemetriusNo": "흠... 요즘 내 아내와 또다른 오해가 있었어. 토마토와 후추를 곁들인 호박 샐러드는 당연히 과일 샐러드가 아니라는거야.$4#$B#하지만 이해할 수가 없어, 그것들은 전부 다 과일이라고!$2"
+        "TellEveryone_DemetriusNo": "흠... 요즘 내 아내와 또다른 오해가 있었어. 토마토와 후추를 곁들인 호박 샐러드는 당연히 과일 샐러드가 아니라는거야.$4#$B#하지만 이해할 수가 없어, 그것들은 전부 과일이라고!$2"
         }
     },
 
@@ -181,7 +181,7 @@
     "Target": "Characters/Dialogue/Jodi",
     "Entries": {
         "TellEveryone": "$q 1507030/1507031 null#조디에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507030 0 TellEveryone_JodiYes#네#$r 1507031 0 TellEveryone_JodiNo#아니오",
-        "TellEveryone_JodiYes": "다행이다! 마니의 인생에 새로운 사람이 생길지 궁금했었어. 지금쯤 신나있겠는걸?#$b#그녀가 기뻐한다니 나도 기뻐... 그런데 루이스는 왜 비밀로 하고 싶어 한거지?",
+        "TellEveryone_JodiYes": "다행이다! 마니의 인생에 새로운 사람이 생길지 궁금했었어. 지금쯤 신나있겠는걸?#$b#마니가 기뻐한다니 나도 기뻐... 그런데 루이스는 왜 비밀로 하고 싶어 한거지?",
         "TellEveryone_JodiNo": "남자애 둘이서 어찌나 그리 많은 빨래를 만드는지 몰라. 특히 빈센트가 심해. 온갖 더러운 걸 끌어들이는것 같다니까."
             }
         },
@@ -264,7 +264,7 @@
     "Target": "Characters/Dialogue/Sam",
     "Entries": {
         "TellEveryone": "$q 1507043/1507044 null#샘에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507043 0 TellEveryone_SamYes#네#$r 1507044 0 TellEveryone_SamNo#아니오",
-        "TellEveryone_SamYes": "하! 우리 나이 지긋하신 시장님도 아직 청춘이네!$1#$b#좋은 일이겠네. 다른 사람들 몰래 사귀는 모습은 별로 좋진 않지만.$5",
+        "TellEveryone_SamYes": "하! 우리 나이 지긋하신 시장님도 아직 청춘이네!$1#$b#좋은 일이야. 다른 사람들 몰래 사귀는 모습은 그리 좋진 않지만.$5",
         "TellEveryone_SamNo": "야, @. 왜 침대에 누우면 최고의 노래가 떠오르는 걸까?#$b#결국엔 일어나서 전부 적어놔야 했어. 그리고 오늘 다시 보니까 완전 엉터리더라."
             }
         },
@@ -297,7 +297,7 @@
     "Entries": {
         "TellEveryone": "$q 1507049/1507050 null#윌리에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507049 0 TellEveryone_WillyYes#네#$r 1507050 0 TellEveryone_WillyNo#아니오",
         "TellEveryone_WillyYes": "루이스가 마니를 멋지게 낚은 것 같구만. 그래, 그 둘을 살롱에서 본 적이 있네, @. 이 늙은 선원에게 들키지 않는 일은 거의 없네.",
-        "TellEveryone_WillyNo": "나는 아주 조그마한 사내애일적에 첫 물고기를 잡았네. 녀석은 아주 커서 거의 나를 물 속으로 끌고 들어갈 뻔했지."
+        "TellEveryone_WillyNo": "나는 아주 조그마한 사내애일적에 첫 물고기를 잡았네. 녀석은 아주 커서 나를 물 속으로 끌고 들어갈 뻔했지."
             }
         },
 
