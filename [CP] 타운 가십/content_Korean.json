@@ -13,7 +13,7 @@
 {   "Action": "EditData",
     "Target": "Data/mail",
     "Entries":{ 
-        "MarnieTellEveryone": "@, 어젯밤의 그런 모습을 너에게 보여줬다니 부끄럽네. 그리고 그 이야기... 우리 사이를 비밀로 하는건 내 마음을 아프게하지만 나는 루이스의 권위를 존중해. 너의 선택을 다시 생각해줬으면 좋겠어.^ - 마니 %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
+        "MarnieTellEveryone": "@, 어젯밤의 그런 모습을 너에게 보여줬다니 부끄럽네. 그리고 너가 들었던 이야기... 우리 사이를 비밀로 해야 한다는 건 내 마음을 아프게하지만 나는 루이스의 권위를 존중해. 너의 선택을 다시 생각해줬으면 좋겠어.^ - 마니 %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
         "LewisTellEveryone": "@, 자네에게 부끄러운 모습을 보여준 것과 그에 대한 내 반응으로 충격을 받게 만들어서 미안하네. 너무나도 갑작스러운 나머지 놀란 마음에 그랬네. 제발 부탁하건데 모두에게 말하는 것은 다시 재고해 주겠나? 내... 우리의... 경솔한 모습에 대한 이야기가 돌아다니는 모습은 보고 싶지 않네.^ - 시장 루이스 %item conversationTopic TellEveryone 3 %% [#]Lewis's reaction"
                }
         },
