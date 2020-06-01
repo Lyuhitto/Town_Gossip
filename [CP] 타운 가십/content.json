@@ -7,16 +7,14 @@
     "Target": "Data/Events/Farm",
     "Entries": {
       "50705070/q 201/x {{Random:MarnieTellEveryone, LewisTellEveryone}}": "null"
-      /*"50705071/e 1848481/x ElliottReadingLetter": "null"*/
                }
             },
 
 {   "Action": "EditData",
     "Target": "Data/mail",
     "Entries":{ 
-        "MarnieTellEveryone": "@, I'm embarrassed by what you saw last night, and how the conversation went... I respect our Mayor's dignity, although it does pain me to keep us secret. Please consider your choice carefully.^ - Marnie %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
-        "LewisTellEveryone": "@, I'm sorry for what you witnessed, and shocked at my reaction. You caught me unawares. Please, I implore you, reconsider your decision to tell everyone. I would hate for word to get out about my... our... indiscretion.^ - Mayor Lewis %item conversationTopic TellEveryone 3 %% [#]Lewis's reaction",
-        "ElliottReadingLetter": "Dear @,^Once again I must express my gratitude at your advice and support while I wrote my novel. I feel my reading was a success! Although it is a shame that so many attendees had other commitments.^ Elliott %item conversationTopic ElliotsBookReading 3%% [#] Elliott's Gratitude"
+        "MarnieTellEveryone": "@, 어젯밤의 그런 모습을 너에게 보여줬다니 부끄럽네. 그리고 네가 들었던 이야기... 우리 사이를 비밀로 해야 한다는 건 내 마음을 아프게 하지만 나는 루이스의 권위를 존중해. 너의 선택을 다시 생각해줬으면 좋겠어.^ - 마니 %item conversationTopic TellEveryone 3%% [#]Marnie's reaction",
+        "LewisTellEveryone": "@, 자네에게 부끄러운 모습을 보여준 것과 그에 대한 내 반응으로 충격을 받게 만들어서 미안하네. 너무나도 갑작스러운 나머지 놀란 마음에 그랬네. 제발 부탁이네만 모두에게 말하는 것은 재고해 주겠나? 내... 우리의... 경솔한 모습에 대한 이야기가 돌아다니는 모습은 보고 싶지 않네.^ - 시장 루이스 %item conversationTopic TellEveryone 3 %% [#]Lewis's reaction"
                }
         },
 
@@ -25,10 +23,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Abigail",
     "Entries": {
-        "TellEveryone": "$q 150701/150702 null#Tell Abigail about Marnie and Lewis?#$r 150701 0 TellEveryone_AbigailYes#Yes#$r 150702 0 TellEveryone_AbigailNo#No",
-        "TellEveryone_AbigailYes": "Really? Lewis and Marnie! Hah, I've seen 'em sneaking around at night!#$b#I knew Marnie wasn't looking for a 'missing chicken'.",
-        "TellEveryone_AbigailNo": "Hey, what's up? You looked like you had something you wanted to say? No?",
-        "ElliottsBookReading": "Gosh, Elliott's book is really over-written isn't it? Give me something with monsters and lots of action anyday!"
+        "TellEveryone": "$q 150701/150702 null#아비게일에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150701 0 TellEveryone_AbigailYes#네#$r 150702 0 TellEveryone_AbigailNo#아니오",
+        "TellEveryone_AbigailYes": "진짜? 루이스 시장님과 마니 아주머니가? 하, 어쩐지 밤에 둘이서 몰래 돌아다니더라니!#$b#마니 아주머니가 '잃어버린 닭'을 찾는다는 게 아닐 줄 알았어.",
+        "TellEveryone_AbigailNo": "어라, 무슨 일 있어? 나한테 할 말이 있어보이는데? 아니야?"
         }
 },
 
@@ -37,9 +34,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Alex",
     "Entries": {
-        "TellEveryone": "$q 150703/150704 null#Tell Alex about Marnie and Lewis?#$r 150703 0 TellEveryone_AlexYes#Yes#$r 150704 0 TellEveryone_AlexNo#No",
-        "TellEveryone_AlexYes": "Cool. Good for them, I guess.#$b#Hey, what do you think of my hair? I'm trying something new.",
-        "TellEveryone_AlexNo": "Hey, what do you think of my hair? I'm trying something new."
+        "TellEveryone": "$q 150703/150704 null#알렉스에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150703 0 TellEveryone_AlexYes#네#$r 150704 0 TellEveryone_AlexNo#아니오",
+        "TellEveryone_AlexYes": "멋진데. 아마 두분에게 좋은 일이겠지.#$b#야, 내 머리 어때? 새로운 헤어 스타일을 시도해봤는데.",
+        "TellEveryone_AlexNo": "야, 내 머리 어때? 새로운 헤어 스타일을 시도해봤는데."
             }
         },
 {
@@ -47,10 +44,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Caroline",
     "Entries": {
-        "TellEveryone": "$q 150705/150706 null#Tell Caroline about Marnie and Lewis?#$r 150705 0 TellEveryone_CarolineYes#Yes#$r 150704 0 TellEveryone_CarolineNo#No",
-        "TellEveryone_CarolineYes": "Perhaps some things are better kept private, don't you think?",
-        "TellEveryone_CarolineNo": "Enjoy your youth while you have it, @. Married life is wonderful, but I miss those carefree days of running free and wild.$2",
-        "ElliottsBookReading": "$p 958699#I enjoyed Elliott's reading, although perhaps a bit dark and gritty for my tastes.|Our Elliott has a lot of talent, I'm sure, but, his tale wasn't really to my taste."
+        "TellEveryone": "$q 150705/150706 null#캐롤라인에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150705 0 TellEveryone_CarolineYes#네#$r 150704 0 TellEveryone_CarolineNo#아니오",
+        "TellEveryone_CarolineYes": "어떤 것들은 비밀로 하는 편이 더 나을 텐데, 그렇지 않니?",
+        "TellEveryone_CarolineNo": "젊음은 가졌을때 즐겨야해, @. 결혼 생활은 환상적이지만, 자유롭고 제멋대로 뛰어다녔던 그때 그 시절이 그리워.$2"
             }
         },
 {
@@ -58,10 +54,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Clint",
     "Entries": {
-        "TellEveryone": "$q 150707/150708 null#Tell Clint about Marnie and Lewis?#$r 150707 0 TellEveryone_ClintYes#Yes#$r 150708 0 TellEveryone_ClintNo#No",
-        "TellEveryone_ClintYes": "Huh, really? Well, I don't think it's any of my business. Or yours, come to that.",
-        "TellEveryone_ClintNo": "Been visting the mines recently, @? There's some decent stuff in there, if you look hard enough.",
-        "ElliottsBookReading": "Huh, that Elliott fellow really has a way with words doesn't he? No doubt he's earned himself a few fans.$5"
+        "TellEveryone": "$q 150707/150708 null#클린트에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150707 0 TellEveryone_ClintYes#네#$r 150708 0 TellEveryone_ClintNo#아니오",
+        "TellEveryone_ClintYes": "허, 정말이야? 뭐, 내 알 바는 아니지만. 그건 너도 마찬가지고.",
+        "TellEveryone_ClintNo": "최근 광산에 방문해, @? 충분히 꼼꼼하게 살펴본다면 괜찮은 물건을 발견 할 수 있을꺼야."
             }
         },
 
@@ -70,22 +65,20 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Demetrius",
     "Entries": {
-        "TellEveryone": "$q 150709/1507010 null#Tell Demetrius about Marnie and Lewis?#$r 150709 0 TellEveryone_DemetriusYes#Yes#$r 1507010 0 TellEveryone_DemetriusNo#No",
-        "TellEveryone_DemetriusYes": "Okay... from what you're telling me... I can draw no logical conclusion to his argument for secrecy.$2#$b#Is he worried we might think less of him? Robin speaks highly of Marnie.$3",
-        "TellEveryone_DemetriusNo": "Hmm... There's been another misunderstanding with my wife. Apparently pumpkin, with tomato and peppers, does not count as a fruit salad.$4#$B#But I don't understand - they're all fruit!$2",
-        "ElliottsBookReading": "I'm not a fan of fiction, but Robin pushed me to come to Elliot's book reading. I'm glad she let us sneak out early."
-            }
-        },
+        "TellEveryone": "$q 150709/1507010 null#드미트리우스에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150709 0 TellEveryone_DemetriusYes#네#$r 1507010 0 TellEveryone_DemetriusNo#아니오",
+        "TellEveryone_DemetriusYes": "좋아... 네가 말한 것을 토대로 분석하자면... 루이스가 비밀로 하자고 주장했던 것에 대해 논리적인 결론을 내릴 수가 없어.$2#$b#마을 사람들이 알게되면 본인을 나쁘게 생각할까봐 걱정한건가? 로빈은 마니를 칭찬하던데.$3",
+        "TellEveryone_DemetriusNo": "흠... 요즘 내 아내와 또다른 오해가 있었어. 토마토와 후추를 곁들인 호박 샐러드는 당연히 과일 샐러드가 아니라는거야.$4#$B#하지만 이해할 수가 없어, 그것들은 전부 과일이라고!$2"
+        }
+    },
 
 {
     "LogName": "Tell Emily",
     "Action": "EditData",
     "Target": "Characters/Dialogue/Emily",
     "Entries": {
-        "TellEveryone": "$q 1507011/1507012 null#Tell Emily about Marnie and Lewis?#$r 150709 0 TellEveryone_EmilyYes#Yes#$r 1507010 0 TellEveryone_EmilyNo#No",
-        "TellEveryone_EmilyYes": "Really? Well I suppose I have seen them together, but their auras are not in harmony.$2",
-        "TellEveryone_EmilyNo": "Have you ever stood in the forest, closed your eyes and listened to the whisper of the trees?$1#$b#You should try it sometime!$3",
-        "ElliottsBookReading": "Wasn't Elliot's book fascinating? I hardly slept last night, I just had to finish it!$4"
+        "TellEveryone": "$q 1507011/1507012 null#에밀리에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 150709 0 TellEveryone_EmilyYes#네#$r 1507010 0 TellEveryone_EmilyNo#아니오",
+        "TellEveryone_EmilyYes": "진짜? 음, 하지만 두 분이 함께 있을 때의 아우라는 서로 조화를 이루고 있지 않다고 생각했는데.$2",
+        "TellEveryone_EmilyNo": "숲 속에 가만히 서서, 눈을 감고 나무들의 속삭임을 들은 적이 있니?$1#$b#언젠가 꼭 해봐!$3"
             }
         },
 
@@ -94,10 +87,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Elliot",
     "Entries": {
-        "TellEveryone": "$q 1507012/1507013 null#Tell Elliot about Marnie and Lewis?#$r 1507012 0 TellEveryone_ElliotYes#Yes#$r 1507013 0 TellEveryone_ElliotNo#No",
-        "TellEveryone_ElliotYes": "Ah, 'tis the substance of poetry, two hearts: drawn to each other like the moth to the flame, where an indiscretion could get them both burned.",
-        "TellEveryone_ElliotNo": "Sometimes when my mind is clogged and confused, I shall take a walk along the beach.#$b#The sharp tang of salt... the breeze brushing my cheek... They prove a wonderful inspiration, @.$1",
-        "ElliottsBookReading": "Oh, hello @. Thank you again for all your support. I'm feeling so motivated, I've already begun on a sequel!"
+        "TellEveryone": "$q 1507012/1507013 null#엘리엇에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507012 0 TellEveryone_ElliotYes#네#$r 1507013 0 TellEveryone_ElliotNo#아니오",
+        "TellEveryone_ElliotYes": "아, 마치 시의 정수 같구나. 두 연인의 사랑: 경솔함으로 인한 불꽃이 두 사람을 태울지라도, 그 불꽃을 향해 날아가는 나방처럼 서로를 끌어당기네.",
+        "TellEveryone_ElliotNo": "때때로 마음이 막막하고 혼란스러울때에는 바다를 따라 걷곤 해.#$b#날카로운 소금 덩어리... 뺨을 스치는 바람... 그들은 나에게 훌륭한 영감을 보여줘, @.$1"
             }
         },
 {
@@ -105,9 +97,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Dwarf",
     "Entries": {
-        "TellEveryone": "$q 1507014/1507015 null#Tell Dwarf about Marnie and Lewis?#$r 1507014 0 TellEveryone_DwarfYes#Yes#$r 1507015 0 TellEveryone_DwarfNo#No",
-        "TellEveryone_DwarfYes": "I am afraid I do not understand. Why would this be of interest to me?",
-        "TellEveryone_DwarfNo": "Ah, you have come to visit the caves? Perhaps to buy some wares?"
+        "TellEveryone": "$q 1507014/1507015 null#드워프에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507014 0 TellEveryone_DwarfYes#네#$r 1507015 0 TellEveryone_DwarfNo#아니오",
+        "TellEveryone_DwarfYes": "유감이지만 이해할 수 없구만. 그런게 왜 흥미롭다는거야?",
+        "TellEveryone_DwarfNo": "아, 동굴에 들어가려고 방문한거야? 뭐 좀 살래?"
             }
         },
 
@@ -116,9 +108,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Evelyn",
     "Entries": {
-        "TellEveryone": "$q 1507016/1507017 null#Tell Evelyn about Marnie and Lewis?#$r 1507016 0 TellEveryone_EvelynYes#Yes#$r 1507017 0 TellEveryone_EvelynNo#No",
-        "TellEveryone_EvelynYes": "Of course they are, dear. But do you not think that perhaps it is improper to gossip?",
-        "TellEveryone_EvelynNo": "Oh my dear, it looks like you have something on your mind. If you ever wish to talk, I am happy to lend an ear.$1"
+        "TellEveryone": "$q 1507016/1507017 null#에블린에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507016 0 TellEveryone_EvelynYes#네#$r 1507017 0 TellEveryone_EvelynNo#아니오",
+        "TellEveryone_EvelynYes": "당연하단다 아가야. 하지만 다른 사람을 험담하는건 부적절하다고 생각하지 않니?",
+        "TellEveryone_EvelynNo": "오 아가, 무언가 마음에 걸리는 거라도 있어보이는구나. 만일 이 할미에게 말하고 싶다면 기꺼이 귀를 기울이도록하마.$1"
             }
         },
 {
@@ -126,9 +118,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/George",
     "Entries": {
-        "TellEveryone": "$q 1507018/1507019 null#Tell George about Marnie and Lewis?#$r 1507016 0 TellEveryone_GeorgeYes#Yes#$r 1507017 0 TellEveryone_GeorgeNo#No",
-        "TellEveryone_GeorgeYes": "Ridiculous! You're just spreeding gossip now. Keep your nonsense to yourself.$4",
-        "TellEveryone_GeorgeNo": "Youth of today, too caught up in gossip about who is doing what with whom. I'm glad you're not like that, @."
+        "TellEveryone": "$q 1507018/1507019 null#조지에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507016 0 TellEveryone_GeorgeYes#네#$r 1507017 0 TellEveryone_GeorgeNo#아니오",
+        "TellEveryone_GeorgeYes": "우스꽝스럽구만! 자넨 그저 남의 험담이나 퍼나르고 있네. 허튼소리 하지 말게나.$4",
+        "TellEveryone_GeorgeNo": "요즘 젊은이들은 다른 사람이 누구와 무얼 하는지에 대한 소문을 퍼트리는 것에 푹 빠져있지. 하지만 자네는 그런 사람이 아니니 다행이네, @."
             }
         },
 
@@ -137,9 +129,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Harvey",
     "Entries": {
-        "TellEveryone": "$q 1507020/1507021 null#Tell Harvey about Marnie and Lewis?#$r 1507020 0 TellEveryone_HarveyYes#Yes#$r 1507021 0 TellEveryone_HarveyNo#No",
-        "TellEveryone_HarveyYes": "Oh? Are you here to gossip? Because I'm sworn to confidentiality, you know.$5",
-        "TellEveryone_HarveyNo": "I hope that you're eating well. I enjoy cooking, but it can be a bit monotonous to eat the same meal four nights in a row."
+        "TellEveryone": "$q 1507020/1507021 null#하비에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507020 0 TellEveryone_HarveyYes#네#$r 1507021 0 TellEveryone_HarveyNo#아니오",
+        "TellEveryone_HarveyYes": "오? 험담하러 온거야? 난 비밀을 지킨다고 맹세했으니까 말이지, 너도 알듯이 말야.$5",
+        "TellEveryone_HarveyNo": "너는 잘 챙겨먹고 다녔으면 좋겠어. 나도 요리를 즐기긴 하지만, 4일 연속으로 같은 식단으로 식사를 하는건 좀 단조롭더라."
             }
         },
 {
@@ -147,9 +139,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Haley",
     "Entries": {
-        "TellEveryone": "$q 1507022/1507023 null#Tell Haley about Marnie and Lewis?#$r 1507022 0 TellEveryone_HaleyYes#Yes#$r 1507023 0 TellEveryone_HaleyNo#No",
-        "TellEveryone_HaleyYes": "Ew?! What does she see in him? He's so old! And that moustache!$8",
-        "TellEveryone_HaleyNo": "I received some new clothes by mail order. They look nothing like the picture!$5#$b#*sigh* I'd like to visit a real store again.$2"
+        "TellEveryone": "$q 1507022/1507023 null#헤일리에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507022 0 TellEveryone_HaleyYes#네#$r 1507023 0 TellEveryone_HaleyNo#아니오",
+        "TellEveryone_HaleyYes": "뭐라고?! 마니는 루이스의 어디가 좋은거야? 루이스는 너무 늙었어! 특히 그 콧수염을 보라지!$8",
+        "TellEveryone_HaleyNo": "며칠전에 주문했던 옷을 택배로 받았어. 그런데 화면으로 봤던거랑은 완전 다른거야!$5#$b#*한숨* 직접 상점에 가서 사고싶다.$2"
             }
         },
 {
@@ -157,10 +149,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Gus",
     "Entries": {
-        "TellEveryone": "$q 124/125 null#Tell Gus about Marnie and Lewis?#$r 1507024 0 TellEveryone_GusYes#Yes#$r 1507025 0 TellEveryone_GusNo#No",
-        "TellEveryone_GusYes": "Hah, you're bringing gossip to the bartender?",
-        "TellEveryone_GusNo": "How's the farm coming along? Fresh organic ingredients are really the best.$1",
-        "ElliottsBookReading": "I enjoyed Elliott's book reading. The young fellow has quite the talent. And I think I recognized some of the locals in his characters."
+        "TellEveryone": "$q 124/125 null#거스에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507024 0 TellEveryone_GusYes#네#$r 1507025 0 TellEveryone_GusNo#아니오",
+        "TellEveryone_GusYes": "허이고, 지금 바텐더인 나에게 험담을 하는겐가?",
+        "TellEveryone_GusNo": "농장일은 잘되어 가는가? 신선한 유기농 재료는 정말이지 최고의 재료라네.$1"
             }
         },
 
@@ -169,10 +160,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Leah",
     "Entries": {
-        "TellEveryone": "$q 1507026/1507027 null#Tell Leah about Marnie and Lewis?#$r 1507026 0 TellEveryone_LeahYes#Yes#$r 1507027 0 TellEveryone_LeahNo#No",
-        "TellEveryone_LeahYes": "There are very few secrets in a town this small, @. We offer each other the privacy we can.$1",
-        "TellEveryone_LeahNo": "There's something wonderful about stepping back into nature, @.#$b#I'm sure you must feel it too, this connection with the earth?$1",
-        "ElliottsBookReading": "Oh, Elliott's book isn't really my thing, but you've got to support the local artistic talents, right?"
+        "TellEveryone": "$q 1507026/1507027 null#레아에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507026 0 TellEveryone_LeahYes#네#$r 1507027 0 TellEveryone_LeahNo#아니오",
+        "TellEveryone_LeahYes": "이렇게 작은 마을에는 비밀이란 잘 없어, @. 우리는 할 수 있는 만큼 서로의 사생활을 존중해.$1",
+        "TellEveryone_LeahNo": "자연으로 되돌아 가는 것에는 멋진 무언가가 있어, @.#$b#너도 지구와 연결되는 이 느낌이 느껴지지?$1"
             }
         },
 {
@@ -180,9 +170,9 @@
 "Action": "EditData",
 "Target": "Characters/Dialogue/Linus",
 "Entries": {
-    "TellEveryone": "$q 1507028/1507029 null#Tell Linus about Marnie and Lewis?#$r 1507028 0 TellEveryone_LinusYes#Yes#$r 1507029 0 TellEveryone_LinusNo#No",
-    "TellEveryone_LinusYes": "Ah, my young friend, your news is not new to me, for those who walk the outskirts see what others miss.#$b#But perhaps your desire to spread rumor into the wind would be better turned to other tasks?",
-    "TellEveryone_LinusNo": "This is the life I have chosen for myself, @. But that does not mean it is always comfortable.#$b#I may have faced scorn for my choices, but I don't regret them.#$b#It's better to be close to the earth than a ghost in the city, don't you agree?"
+    "TellEveryone": "$q 1507028/1507029 null#라이너스에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507028 0 TellEveryone_LinusYes#네#$r 1507029 0 TellEveryone_LinusNo#아니오",
+    "TellEveryone_LinusYes": "아, 내 어린친구여, 자네의 그 소식은 나에겐 전혀 새롭지 않네. 변두리를 걷는 사람들은 다른 사람들이 놓치는 것을 보기 때문이라네.#$b#하지만 소문을 멀리 퍼트리는 것보다는 다른 일을 하러 가는 것은 어떤가?",
+    "TellEveryone_LinusNo": "이것이 나 자신을 위해 선택한 삶이라네, @. 그러나 그것이 항상 편안함을 의미하지는 않아.#$b#내 선택을 경멸하는 사람들과 마주칠때도 있지만, 나는 이를 후회하지않네.#$b#도시에서 땅과 가깝게 지내는 것이 귀신보다는 낫지 않은가?"
         }
     },
 {
@@ -190,10 +180,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Jodi",
     "Entries": {
-        "TellEveryone": "$q 1507030/1507031 null#Tell Jodi about Marnie and Lewis?#$r 1507030 0 TellEveryone_JodiYes#Yes#$r 1507031 0 TellEveryone_JodiNo#No",
-        "TellEveryone_JodiYes": "Oh! I'd wondered if there was someone new in her life. She's had such a spring in her step.#$b#I'm happy for her... but why is he so secretive?",
-        "TellEveryone_JodiNo": "It's amazing how much laundry a couple of boys can generate. Vinny especially; he seems to attract dirt.",
-        "ElliottsBookReading": "I feel terrible that I had to leave early from Elliott's presentation, but he really does go on, doesn't he?"
+        "TellEveryone": "$q 1507030/1507031 null#조디에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507030 0 TellEveryone_JodiYes#네#$r 1507031 0 TellEveryone_JodiNo#아니오",
+        "TellEveryone_JodiYes": "다행이다! 마니의 인생에 새로운 사람이 생길지 궁금했었어. 지금쯤 신나있겠는걸?#$b#마니가 기뻐한다니 나도 기뻐... 그런데 루이스는 왜 비밀로 하고 싶어 한거지?",
+        "TellEveryone_JodiNo": "남자애 둘이서 어찌나 그리 많은 빨래를 만드는지 몰라. 특히 빈센트가 심해. 온갖 더러운 걸 끌어들이는것 같다니까."
             }
         },
 {
@@ -201,9 +190,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Kent",
     "Entries": {
-        "TellEveryone": "$q 1507032/1507033 null#Tell Kent about Marnie and Lewis?#$r 1507032 0 TellEveryone_KentYes#Yes#$r 1507033 0 TellEveryone_KentNo#No",
-        "TellEveryone_KentYes": "Personal business should remain that way: personal.",
-        "TellEveryone_KentNo": "The night air helps calm me, but there's a part of me that will always be alert for the crackle of a footstep... or the sound of a mortar.#$b#War is a terrible thing, @. It can turn you into someone you'll no longer recognise."
+        "TellEveryone": "$q 1507032/1507033 null#켄트에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507032 0 TellEveryone_KentYes#네#$r 1507033 0 TellEveryone_KentNo#아니오",
+        "TellEveryone_KentYes": "개인적인 일은 적당한 선에서 그쳐야지.",
+        "TellEveryone_KentNo": "밤공기는 나를 진정시키는데 도움이 되지만, 한편으로는 계속 경계하게돼. 바스락거리는 발걸음 소리라던가...아니면 박격포 소리라던가.#$b#전쟁은 끔찍한 일이야, @. 사람을 더 이상 못 알아 볼 정도로 바꾸어 버릴 수 있지."
             }
         },
 {
@@ -211,9 +200,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Maru",
     "Entries": {
-        "TellEveryone": "$q 1507034/1507035 null#Tell Maru about Marnie and Lewis?#$r 1507034 0 TellEveryone_MaruYes#Yes#$r 1507035 0 TellEveryone_MaruNo#No",
-        "TellEveryone_MaruYes": "Hey as long as they're both into it, I'm not going to judge.",
-        "TellEveryone_MaruNo": "Sebastian's into computers, and I tinker with gadgets. You'd think we'd get along, maybe create something wonderful together...$2#$b#But he just hides in the basement and scowls.$2"
+        "TellEveryone": "$q 1507034/1507035 null#마루에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507034 0 TellEveryone_MaruYes#네#$r 1507035 0 TellEveryone_MaruNo#아니오",
+        "TellEveryone_MaruYes": "두 분이서 좋다면야, 내가 판단할 일은 아니지.",
+        "TellEveryone_MaruNo": " 세바스찬은 컴퓨터에 푹 빠져있고, 나는 기계 장치를 만지작거리지. 너는 우리가 잘 어울릴 거라고 생각할꺼야, 어쩌면 멋진 걸 함께 만들어 낸다던가...$2#$b#하지만 세바스찬은 지하실에 숨은채로 노려보기만 한다는게 현실이지.$2"
             }
         },
 {
@@ -221,9 +210,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Pam",
     "Entries": {
-        "TellEveryone": "$q 1507035/1507036 null#Tell Pam about Marnie and Lewis?#$r 1507035 0 TellEveryone_PamYes#Yes#$r 1507036 0 TellEveryone_PamNo#No",
-        "TellEveryone_PamYes": "Oh, the old dog! Good on him.",
-        "TellEveryone_PamNo": "I hope I did right bringing Penny up here... She seems happy though. Smarter than I ever was. Good with the kids too. She'll go far."
+        "TellEveryone": "$q 1507035/1507036 null#팸에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507035 0 TellEveryone_PamYes#네#$r 1507036 0 TellEveryone_PamNo#아니오",
+        "TellEveryone_PamYes": "오, 그 고집불통 루이스가! 좋은일이야.",
+        "TellEveryone_PamNo": "페니를 데리고 여기에 온 게 옳은 일이었는지는 모르겠지만... 그래도 페니는 행복해보여. 저 나이때의 나보다 더 똑똑하지, 애들하고도 잘 어울리고. 페니는 크게 될 사람이야."
             }
         },
 {
@@ -231,9 +220,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Pierre",
     "Entries": {
-        "TellEveryone": "$q 1507037/1507038 null#Tell Pierre about Marnie and Lewis?#$r 1507037 0 TellEveryone_PierreYes#Yes#$r 1507038 0 TellEveryone_PierreNo#No",
-        "TellEveryone_PierreYes": "Oh really? I'm guessing she's enjoying some extra 'business perks'.$3",
-        "TellEveryone_PierreNo": "You know, the problem with running a store is being stuck inside all day. I feel there's a world out there that I barely get to see."
+        "TellEveryone": "$q 1507037/1507038 null#피에르에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507037 0 TellEveryone_PierreYes#네#$r 1507038 0 TellEveryone_PierreNo#아니오",
+        "TellEveryone_PierreYes": "그게 정말이야? 어쩐지 마니가 약간의 '비즈니스 특권'을 누리더라.$3",
+        "TellEveryone_PierreNo": "너도 알다시피, 가게를 운영할때의 문제는 하루종일 가게에 박혀있어야 한다는 거야. 밖은 내가 거의 본적 없는 세상인 것 같아."
      
             }
         },
@@ -243,7 +232,7 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Lewis",
     "Entries": {
-        "TellEveryone": "$p 1507037#Thanks to you, Pierre's been asking some very awkward questions. I'd appreciate if you held your tongue in future, @.$4|My ears feel uncommonly warm at the moment. Perhaps I've had a bit too much sun.$2"
+        "TellEveryone": "$p 1507037#@, 자네 덕분에 피에르가 매우 곤란한 질문을 해왔네. 앞으로는 잠자코 있어주면 아주 고맙겠어.$4|질문을 받는 순간에 햇빛을 너무 많이 쬐었는지 귀가 굉장히 뜨끈해졌다네.$2"
             }
         },
 
@@ -254,9 +243,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Penny",
     "Entries": {
-        "TellEveryone": "$q 1507039/1507040 null#Tell Penny about Marnie and Lewis?#$r 1507039 0 TellEveryone_PennyYes#Yes#$r 1507040 0 TellEveryone_PennyNo#No",
-        "TellEveryone_PennyYes": "Oh, how sweet! I guess it's never too late to find love, is it?$1",
-        "TellEveryone_PennyNo": "I've been having to do a lot of reading recently. The questions that Jas and Vincent come up wth... well, let's just say they keep me guessing!"
+        "TellEveryone": "$q 1507039/1507040 null#페니에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507039 0 TellEveryone_PennyYes#네#$r 1507040 0 TellEveryone_PennyNo#아니오",
+        "TellEveryone_PennyYes": "와, 너무 달달해요! 사랑에는 절대 늦음이 없는 것같아요, 안그래요?$1",
+        "TellEveryone_PennyNo": "저는 요즘 많은 책을 읽어야 했어요. 재스와 빈센트가 물어본 질문들이란... 음, 그냥 그 둘은 어디로 튈지 모른다는거로 하죠!"
             }
         },
 {
@@ -264,9 +253,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Robin",
     "Entries": {
-        "TellEveryone": "$q 1507041/1507042 null#Tell Robin about Marnie and Lewis?#$r 1507041 0 TellEveryone_RobinYes#Yes#$r 1507042 0 TellEveryone_RobinNo#No",
-        "TellEveryone_RobinYes": "The Mayor and Marnie? That explains those repairs I made to Marnie's window... it wasn't designed to open that wide!$1",
-        "TellEveryone_RobinNo": "I fell in love with carpentry at school; the wood spoke to me.#$b#Not literally of course! But I knew from touching it what it could become."
+        "TellEveryone": "$q 1507041/1507042 null#로빈에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507041 0 TellEveryone_RobinYes#네#$r 1507042 0 TellEveryone_RobinNo#아니오",
+        "TellEveryone_RobinYes": "루이스 시장님이랑 마니가? 이제야 마니네 집 창문을 보수해야했던 이유가 설명이되네... 그 창문은 사람이 드나들만큼 크게 열 수 있도록 설계된게 아니었거든!$1",
+        "TellEveryone_RobinNo": "나는 학교를 다닐 때 목공일과 사랑에 빠졌어. 나무가 나에게 말을 걸었거든.#$b#정말 글자 그대로 말은 건 건 아니야! 하지만 나무를 만지면 어떤 모습으로 변할 수 있는지는 알 수 있었어."
             }
         },
 {
@@ -274,9 +263,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Sam",
     "Entries": {
-        "TellEveryone": "$q 1507043/1507044 null#Tell Sam about Marnie and Lewis?#$r 1507043 0 TellEveryone_SamYes#Yes#$r 1507044 0 TellEveryone_SamNo#No",
-        "TellEveryone_SamYes": "Hah! The old dude's still got it!$1#$b#Good on him, I guess. Although it kinda sucks he won't go public.$5",
-        "TellEveryone_SamNo": "Hey @. Why do the best song ideas come when I'm lying in bed?#$b#Had to get up and write the whole thing down. And today it looks like nonsense."
+        "TellEveryone": "$q 1507043/1507044 null#샘에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507043 0 TellEveryone_SamYes#네#$r 1507044 0 TellEveryone_SamNo#아니오",
+        "TellEveryone_SamYes": "하! 우리 나이 지긋하신 시장님도 아직 청춘이네!$1#$b#좋은 일이야. 다른 사람들 몰래 사귀는 모습은 그리 좋진 않지만.$5",
+        "TellEveryone_SamNo": "야, @. 왜 침대에 누우면 최고의 노래가 떠오르는 걸까?#$b#결국엔 일어나서 전부 적어놔야 했어. 그리고 오늘 다시 보니까 완전 엉터리더라."
             }
         },
 {
@@ -284,9 +273,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Sebastian",
     "Entries": {
-        "TellEveryone": "$q 1507045/1507046 null#Tell Sebastian about Marnie and Lewis?#$r 1507045 0 TellEveryone_SebastianYes#Yes#$r 1507046 0 TellEveryone_SebastianNo#No",
-        "TellEveryone_SebastianYes": "Who cares?",
-        "TellEveryone_SebastianNo": "It's amazing what you can see outside by the lake at night. Everything's more interesting after dark."
+        "TellEveryone": "$q 1507045/1507046 null#세바스찬에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507045 0 TellEveryone_SebastianYes#네#$r 1507046 0 TellEveryone_SebastianNo#아니오",
+        "TellEveryone_SebastianYes": "신경 안써.",
+        "TellEveryone_SebastianNo": "밤의 호숫가로 나오면 경이로운 것들을 볼 수 있어. 어두워진 후엔 모든 것이 흥미로워지더라."
             }
         },
 
@@ -295,9 +284,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Shane",
     "Entries": {
-        "TellEveryone": "$q 1507047/1507048 null#Tell Shane about Marnie and Lewis?#$r 1507047 0 TellEveryone_ShaneYes#Yes#$r 1507048 0 TellEveryone_ShaneNo#No",
-        "TellEveryone_ShaneYes": "So the Mayor's still going on about maintaining his precious reputation?$5#$b#Does he know you're going around spreading the word?$2#$b#Don't worry, I'm not gonna tell on you. Yoba knows, Aunty deserves better.$4",
-        "TellEveryone_ShaneNo": "It's alright for you, @, You know where you're going with your life. Me? I'm like that plastic bag, everytime I feel like I'm getting somewhere, I get snarled in a tree.$2"
+        "TellEveryone": "$q 1507047/1507048 null#셰인에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507047 0 TellEveryone_ShaneYes#네#$r 1507048 0 TellEveryone_ShaneNo#아니오",
+        "TellEveryone_ShaneYes": "그래서 시장은 여전히 그 잘난 명성을 유지하려고 한다고?$5#$b#네가 소문을 퍼뜨리고 다니는건 알고있고?$2#$b#걱정마, 일러바치진 않을거니까. 요바께서도 알듯이, 고모는 더 나은 대접을 받을 자격이있어.$4",
+        "TellEveryone_ShaneNo": "괜찮아, @. 너는 너의 인생이 어떻게 굴러갈지 알잖아. 나? 비닐봉지가 나무에 낀채로 부스럭거리기만 하는 게 내 인생같다고 느껴.$2"
             }
         },
 
@@ -306,9 +295,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Willy",
     "Entries": {
-        "TellEveryone": "$q 1507049/1507050 null#Tell Willy about Marnie and Lewis?#$r 1507049 0 TellEveryone_WillyYes#Yes#$r 1507050 0 TellEveryone_WillyNo#No",
-        "TellEveryone_WillyYes": "Looks like he managed to reel her in. Yeh, I've see them in the saloon, @. Not much gets past this old sailor.",
-        "TellEveryone_WillyNo": "I caught my first fish when I was just a tiny lad. Fellow was so big he almost dragged me right into the drink."
+        "TellEveryone": "$q 1507049/1507050 null#윌리에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507049 0 TellEveryone_WillyYes#네#$r 1507050 0 TellEveryone_WillyNo#아니오",
+        "TellEveryone_WillyYes": "루이스가 마니를 멋지게 낚은 것 같구만. 그래, 그 둘을 살롱에서 본 적이 있네, @. 이 늙은 선원에게 들키지 않는 일은 거의 없네.",
+        "TellEveryone_WillyNo": "나는 아주 조그마한 사내애일적에 첫 물고기를 잡았네. 녀석은 아주 커서 나를 물 속으로 끌고 들어갈 뻔했지."
             }
         },
 
@@ -317,9 +306,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Wizard",
     "Entries": {
-        "TellEveryone": "$q 1507051/1507052 null#Tell the wizard about Marnie and Lewis?#$r 1507051 0 TellEveryone_WizardYes#Yes#$r 1507052 0 TellEveryone_WizardNo#No",
-        "TellEveryone_WizardYes": "You consider me interested in the affairs of mortals? Pah!#$b#There is so much more to this world than fulfilling your base urges, @. It would serve you well to remember that.",
-        "TellEveryone_WizardNo": "There is so much more to this world that you know, @. It would serve you well to remember that."
+        "TellEveryone": "$q 1507051/1507052 null#마법사에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507051 0 TellEveryone_WizardYes#네#$r 1507052 0 TellEveryone_WizardNo#아니오",
+        "TellEveryone_WizardYes": "내가 인간들의 일에 관심이 있다고 생각하는가? 하!#$b#어린 @여, 이 세상에는 자네의 그 원초적인 욕구를 충족시키는 것 이상의 것들이 있다네. 이를 명심하는 것이 좋을걸세.",
+        "TellEveryone_WizardNo": "이 세상에는 자네가 깨달은 것보다 훨씬 많은 것들이 존재한다네, @여. 이를 명심하는 것이 좋을걸세."
             }
         },
 
@@ -328,9 +317,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/MarlonFay",
     "Entries": {
-        "TellEveryone": "$q 1507053/1507054 null#Tell Marlon about Marnie and Lewis?#$r 1507053 0 TellEveryone_MarlonYes#Yes#$r 1507054 0 TellEveryone_MarlonNo#No",
-        "TellEveryone_MarlonYes": "Marnie has given her heart to our honorable Mayor? Oh...$s#$b#Perhaps instead of spreading salacious gossip, you should turn your hand to slaying monsters, @.$a",
-        "TellEveryone_MarlonNo": "You looked troubled today, @. Does something weigh heavy on your mind?"
+        "TellEveryone": "$q 1507053/1507054 null#말론에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507053 0 TellEveryone_MarlonYes#네#$r 1507054 0 TellEveryone_MarlonNo#아니오",
+        "TellEveryone_MarlonYes": "마니가 우리의 명예로운 시장에게 마음을 바쳤단 말인가? 오...$s#$b#추잡한 소문을 퍼트리고 다닐바엔, 차라리 몬스터나 잡으러 가는편이 좋을걸세, @.$a",
+        "TellEveryone_MarlonNo": "오늘따라 고민이 있어보이네만, @. 무언가 마음에 걸리는 것이라도 있나?"
             }
         },
 
@@ -339,18 +328,19 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Juliet",
     "Entries": {
-        "TellEveryone": "$q 1507055/1507056 null#Tell Juliet about Marnie and Lewis?#$r 1507055 0 TellEveryone_JulietYes#Yes#$r 1507056 0 TellEveryone_JulietNo#No",
-        "TellEveryone_JulietYes": "Holy crow! I can totally see what he sees in her, but what does she see in him?#$b#And what's with the secrecy? If she was my girlfriend, I'd be singing it from the rooftops!",
-        "TellEveryone_JulietNo": "Hey @! Whatcha up to today? Wanna hang out? I'm kinda bored and would welcome the company."
+        "TellEveryone": "$q 1507055/1507056 null#줄리엣에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507055 0 TellEveryone_JulietYes#네#$r 1507056 0 TellEveryone_JulietNo#아니오",
+        "TellEveryone_JulietYes": "맙소사! 루이스가 마니의 어떤 점을 보고 빠졌는지는 전적으로 공감하는 바 이지만, 마니는 대체 루이스의 어디가 좋은거지?#$b#그리고 왜 비밀로 하는거야? 만약 마니가 내 여자친구였다면, 나는 옥상에 올라가서 모두가 듣도록 노래를 불렀을거라고!",
+        "TellEveryone_JulietNo": "어이 @! 오늘은 무슨일이야? 같이 놀러갈래? 조금 심심한데 나랑 같이 논다면야 기꺼이 환영할게."
             }
         },
 {
     "LogName": "Tell Jasper",
+    "Action": "EditData",
     "Target": "Characters/Dialogue/Jasper",
     "Entries": {
-        "TellEveryone": "$q 1507057/1507058 null#Tell Jasper about Marnie and Lewis?#$r 1507057 0 TellEveryone_JasperYes#Yes#$r 1507058 0 TellEveryone_JasperNo#No",
-        "TellEveryone_JasperYes": "Oh... well yes, I'm surprised. There's someone who shall be most upset to hear that.$2#$b#No, I will not say whom. It has been proven you cannot hold your tongue!$5",
-        "TellEveryone_JasperNo": "Oh greetings @. You caught me unawares."
+        "TellEveryone": "$q 1507057/1507058 null#재스퍼에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507057 0 TellEveryone_JasperYes#네#$r 1507058 0 TellEveryone_JasperNo#아니오",
+        "TellEveryone_JasperYes": "음... 어 그래, 정말 놀랍네. 그 말을 들으면 누구누구가 매우 화를 낼거야.$2#$b#아냐, 그 누구누구가 누구인지는 말하지 않을거야. 네 입이 가볍다는 건 이미 증명 됐거든!$5",
+        "TellEveryone_JasperNo": "오 안녕 @. 깜짝 놀랐네."
             }
         },
 
@@ -359,9 +349,9 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Gale",
     "Entries": {
-        "TellEveryone": "$q 1507059/1507060 null#Tell Gale about Marnie and Lewis?#$r 1507059 0 TellEveryone_GaleYes#Yes#$r 1507060 0 TellEveryone_GaleNo#No",
-        "TellEveryone_GaleYes": "I know, my dear. But perhaps your discretion might be appreciated.",
-        "TellEveryone_GaleNo": "Hello my dear! It is a glorious day, isn't it?"
+        "TellEveryone": "$q 1507059/1507060 null#게일에게 마니와 루이스가 무슨 사이인지 말할까요?#$r 1507059 0 TellEveryone_GaleYes#네#$r 1507060 0 TellEveryone_GaleNo#아니오",
+        "TellEveryone_GaleYes": "나도 알고있어 자기야. 하지만 어쩌면 좀 더 신중한 편이 좋았을지도 몰라.",
+        "TellEveryone_GaleNo": "안녕 자기! 날씨가 참 좋아, 그렇지 않아?"
             }
         }
 
